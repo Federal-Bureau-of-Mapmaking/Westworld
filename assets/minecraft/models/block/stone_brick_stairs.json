@@ -1,0 +1,77 @@
+{
+	"credit": "AlexTestria | https://alex-bauerndistel.de",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "westworld/custom/stone_brick_stairs01/stone_brick_stairs01",
+		"particle": "westworld/custom/stone_brick_stairs01/stone_brick_stairs01"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [5.33, 5.33, 16],
+			"faces": {
+				"north": {"uv": [10, 6, 11.25, 7.25], "texture": "#0"},
+				"east": {"uv": [4.25, 6, 8.25, 7.25], "texture": "#0"},
+				"south": {"uv": [10, 7.5, 11.25, 8.75], "texture": "#0"},
+				"west": {"uv": [4.25, 7.5, 8.25, 8.75], "texture": "#0"},
+				"up": {"uv": [1.25, 12.5, 0, 8.5], "texture": "#0"},
+				"down": {"uv": [9.75, 0, 8.5, 4], "texture": "#0"}
+			}
+		},
+		{
+			"from": [5.33, 0, 0],
+			"to": [10.66, 10.66, 16],
+			"faces": {
+				"north": {"uv": [10, 0, 11.25, 2.75], "texture": "#0"},
+				"east": {"uv": [4.25, 0, 8.25, 2.75], "texture": "#0"},
+				"south": {"uv": [10, 3, 11.25, 5.75], "texture": "#0"},
+				"west": {"uv": [4.25, 3, 8.25, 5.75], "texture": "#0"},
+				"up": {"uv": [2.75, 12.5, 1.5, 8.5], "texture": "#0"},
+				"down": {"uv": [9.75, 4.25, 8.5, 8.25], "texture": "#0"}
+			}
+		},
+		{
+			"from": [10.66, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [8.5, 8.5, 9.75, 12.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 4], "texture": "#0"},
+				"south": {"uv": [3, 9, 4.25, 13], "texture": "#0"},
+				"west": {"uv": [0, 4.25, 4, 8.25], "texture": "#0"},
+				"up": {"uv": [5.75, 13, 4.5, 9], "texture": "#0"},
+				"down": {"uv": [7.25, 9, 6, 13], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}
